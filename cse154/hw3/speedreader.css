@@ -1,0 +1,63 @@
+/*NINGHE ZHANG
+CSE154
+ASSIGNMENT 3
+This is the stylesheet for speedReader page.*/
+h1, #display, #controls{
+	text-align: center;
+}
+
+body{
+	background-color: #EAF6F6;
+	font-family: Garamond, serif;
+	font-size: 12pt;
+}
+
+#display {
+	width: 80%;
+	height: 100px;
+	font-size: 36pt;
+	margin: auto;
+	font-family: monospace;
+	line-height: 100px;
+	border: 2px solid #8EBEBE;
+	border-radius: 5px;
+}
+
+#display, textarea, button {
+	background-color: #FFFFFF;
+}
+
+#display, legend {
+	font-weight: bold;
+}
+
+legend{
+	text-align: left;
+	border-bottom: 1px solid #8EBEBE;
+	width: 100%;
+	padding: 2px;	
+}
+
+fieldset{
+	vertical-align: top;
+	border:0;
+	display: inline;
+}
+
+button:disabled {
+	background-color: #D3D3D3;
+}
+
+#validators{
+	left: 5px;
+	bottom: 0px;
+	position: fixed;
+}
+
+button, #validators img{
+	width:70px;
+}
+
+textarea, button {
+	border:1px solid gray;
+}

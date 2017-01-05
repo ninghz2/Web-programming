@@ -1,0 +1,123 @@
+/*NINGHE ZHANG
+CSE154
+ASSIGNMENT 2
+This is the stylesheet for tmnt.html*/
+body{
+	background-image: url('https://webster.cs.washington.edu/images/moviebg.png');
+	font-size: 10pt;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding:0px;
+}
+
+.banner{
+	background-image: url('https://webster.cs.washington.edu/images/rancidbannerbg.png');
+	height:  50px;
+}
+
+.banner, .rating {
+	background-repeat: repeat-x;
+}
+
+.banner, h1, .footer{
+	text-align: center;
+}
+
+h1{
+	font-size: 24pt;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	text-shadow: 3px 3px #999999;
+}
+
+.container, .text, .reviewer {
+	overflow: hidden;
+}
+
+.container{
+	width: 800px;
+	margin: auto;
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 20px;
+	background-color: #EEEEEE;
+}
+.leftBar, .column, .icon, .critic {
+	float: left;
+}
+
+.leftBar{
+	width: 550px;
+}
+
+.rating, dt {
+	font-weight: bold;
+}
+
+.rating{
+	background-image: url('https://webster.cs.washington.edu/images/rottenlargebg.png');
+	height:  83px;
+	font-size: 48pt;
+	color: red;
+}
+#rotten{
+	vertical-align: bottom;
+}
+
+.column{
+	width: 47%;	
+	margin-left: 2%;
+}
+
+.text{
+	font-size: 10pt;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	background-color: #FFFFFF;
+	border:2px solid #CCCCCC;
+	border-radius: 20px;
+	padding: 8px;
+}
+
+.icon, .critic{
+	margin-right: 5px;
+}
+
+.reviewer{
+	margin-bottom: 20pt;
+}
+
+.rightbar{
+	background-color: #A2B964;
+	width: 250px;
+}
+
+dl{
+	margin-left: 10pt;
+	margin-right: 10pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+dt{
+	margin-top: 10pt;
+}
+
+.footer{
+	background-color: #A2B964;
+	clear: right;
+	padding: 5px;
+	margin-bottom: 0px;
+}
+
+.certificate, .rightbar {
+	float: right;
+}
+
+.certificate img{
+	opacity: 0.5;
+}
+.certificate img:hover{
+	opacity: 1.0;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0px;
+}

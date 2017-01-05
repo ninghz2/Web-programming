@@ -1,0 +1,42 @@
+/*NINGHE ZHANG
+CSE154
+This is the stylesheet for fifteen puzzle game.*/
+
+body, button {
+	font-family: cursive;
+	font-size: 14pt;
+}
+
+body {
+	text-align: center;
+}
+
+#puzzlearea {
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	font-size: 40pt;
+	cursor: default;
+	position: relative;
+}
+
+.tiles {
+	width: 90px;
+	height: 90px;
+	border: 5px solid black;
+	background-image: url("background.jpg");
+	position: absolute;
+}
+
+.hover {
+	border: 5px solid red;
+	color: red;
+	cursor: grab;
+}
+
+#output {
+	color: red;
+	font-style: bold;
+	font-size: 25pt;
+	background-color: yellow;
+}

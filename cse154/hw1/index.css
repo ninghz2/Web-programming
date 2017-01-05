@@ -1,0 +1,33 @@
+/* NingHe Zhang
+	1337668
+	CSE154
+	HOMEWORK1
+	Styles for the homepage.
+*/
+p{
+	font-family: cursive;
+	text-indent: 30px;
+}
+h1{
+	text-align: center;
+	font-family: fantasy;
+	font-size: 35pt;
+	text-shadow: 1px 1px red;
+	color: purple;
+	background-image: url("header.png");
+}
+
+h2{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #37645f;
+}
+body{
+	background-image: url("back.jpg");
+	background-attachment: fixed;
+}
+
+ul{
+	list-style-image: url("https://webster.cs.washington.edu/images/pie-icon.gif");
+	font-family: Times;
+	font-size: 12pt;
+}

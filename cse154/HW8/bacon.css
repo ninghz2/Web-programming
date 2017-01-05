@@ -1,0 +1,53 @@
+/*
+NINGHE ZHANG
+CSE154
+HW8
+SECTION AJ
+This is the style sheet for MyMDb website.
+*/
+
+body {
+	font-family: Verdana, sans-serif;
+}
+
+#main {
+	background-color: white;
+	text-align: center;
+}
+
+#banner, #w3c {
+	background-image: url("https://webster.cs.washington.edu/images/kevinbacon/banner-background.png");
+	color: white;
+}
+
+form {
+	width: 24em;
+}
+
+#main, table {
+	width: 90%;
+}
+
+#main, form, table {
+	margin: auto;
+}
+
+form, #banner, #w3c {
+	padding: 1em;
+}
+
+#error {
+	color: red;
+}
+
+table, tr {
+	border: 1px solid #dad9d4;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+	background-color: #dad9d4;
+}

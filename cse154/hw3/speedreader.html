@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- NINGHE ZHANG
+CSE154
+ASSIGNMENT 3
+This is html page for speedReader. -->
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="speedreader.css">
+		<script type="text/javascript" src="speedreader.js"></script>
+		<title>SpeedReader</title>
+	</head>
+	<body>
+		<h1>SpeedReader</h1>
+	 	
+	 	<div id="display">
+	 	</div>
+
+	 		<div id="controls">
+	 			<fieldset>
+	 				<legend>Play Controls:</legend>
+	 				<button id="start">Start</button>
+	 				<button id="stop">Stop</button>
+	 			</fieldset>
+	 			<fieldset>
+	 				<legend>Speed:</legend>
+	 				<select id="speed">
+	 					<option value="500">50 wpm</option>
+	 					<option value="200">300 wpm</option>
+	 					<option selected="selected" value="171" >350 wpm</option>
+	 					<option value="150">400 wpm</option>
+	 					<option value="133">450 wpm</option>
+	 					<option value="120">500 wpm</option>
+	 				</select>	
+	 			</fieldset>
+	 			<fieldset id="font">
+	 				<legend>Size:</legend>
+	 				<label><input type="radio" name="speed" value="medium" id="medium" checked="checked" /> Medium</label>
+	 				<label><input type="radio" name="speed" value="Big" id="big"/> Big</label>
+	 				<label><input type="radio" name="speed" value="Bigger" id="bigger"/> Bigger</label>
+	 			</fieldset>
+	 			<div>
+			 		<fieldset>
+			 			<legend>Input Text</legend>
+			 			<textarea id="input" rows="10" cols="80"></textarea>
+			 		</fieldset>
+		 		</div>
+	 		</div>
+	 		<div id="validators">
+	 			<a href="https://webster.cs.washington.edu/validate-html.php"><img src="https://webster.cs.washington.edu/images/w3c-html-blue.png" alt="html"></a>
+	 			<a href="https://webster.cs.washington.edu/validate-css.php"><img src="https://webster.cs.washington.edu/images/w3c-css-blue.png" alt="css"></a>
+	 			<a href="https://webster.cs.washington.edu/jslint/?referer"><img src="https://webster.cs.washington.edu/images/w3c-js-blue.png" alt="js"></a>
+	 		</div>
+
+	</body>
+</html>
